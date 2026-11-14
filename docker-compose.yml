@@ -1,0 +1,30 @@
+services:
+  servidor1:
+    image: ubuntu-ansible:1.0
+    container_name: servidor1
+    ports:
+      - "127.0.0.1:2221:22"
+
+  servidor2:
+    image: ubuntu-ansible:1.0
+    container_name: servidor2
+    ports:
+      - "127.0.0.1:2222:22"
+
+  servidor3:
+    image: ubuntu-ansible:1.0
+    container_name: servidor3
+    ports:
+      - "127.0.0.1:2223:22"
+
+  servidor4:
+    image: ubuntu-ansible:1.0
+    container_name: servidor4
+    ports:
+      - "127.0.0.1:2224:22"
+
+  servidor5:
+    image: ubuntu-ansible:1.0
+    container_name: servidor5
+    ports:
+      - "127.0.0.1:2225:22"
